@@ -25,7 +25,7 @@ h2{color:rgba(23, 3, 6, 0) (30, 0, 139)}
     width: 800px;
     color:violet;
     float: left;
-    height: 75px;
+    height: 75px;bri
 }
 ul{
     float: left;
@@ -97,7 +97,7 @@ uli li a:hover{
 .content.par{
 padding: left 20px;
 padding-bottom: 25px;
-font-family: Arial;
+font-family:Arial;
 letter-spacing: 1.2px;
 line: height 30px;
 }
@@ -134,10 +134,91 @@ transition: 3s ease;
 .form{
     width: 250px;
     height: 380px;
-    background:linear-gradient(to top,:rgba(0,0,0,0.8)50%,rgb(0, 0,0.0.8)50%);
+    background:linear-gradient(to top,rgba(245, 16, 16, 0.952)50%,rgb(248, 2, 2)50%);
     position:absolute;
     top: -20px;
     left: 870px;
     border-radius:10px
     padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align:center;
+    color: brown;
+    font: size 22px;
+    background-color: antiquewhite;
+    border: radius 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    bolder-bottom:none;
+    color: aliceblue;
+    font: size 15px;
+    letter-spacing:1px;
+    margin: top 30px;
+    font-family: sans-serif;
+}
+.form  input:focus{
+    outline:none;
+}
+::placeholder{
+    color: rgba(27, 16, 1, 0.139)6)6);
+    font-family:Arial;
+}
+.btrn{
+    width:240px;
+    height:40px;
+    background-color: chocolate;
+    border:none;
+    margin: top 30px;
+    font: size 18px;
+    border: radius 10px;
+    cursor:pointer;
+    color:blue;
+    transition:0.4s ease;
+}
+.btn:hover{
+    background-color:blanchedalmond;
+    color:brown
+}
+
+.btnn a{
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 17px;
+    padding-top 20px;
+    text-align:center;
+}
+.form.link a{
+    text-decoration:none;
+    color:chocolate;
+}
+.liw{
+    padding-top: 15px
+    padding-bottom: 10px;
+    text-align:center;
+}
+.icons a{
+    text-decoration: none;
+    color:beige
+}
+.icons ion-icon{
+    color:antiquewhite;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color:darkorange
 }
